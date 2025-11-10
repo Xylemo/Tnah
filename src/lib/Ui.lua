@@ -165,11 +165,11 @@ function Ui:FontWasSuccessful()
 end
 
 function Ui:LoadReGui()
-	local ThemeConfig = Config.ThemeConfig
-	ThemeConfig.TextFont = TextFont
+	--local ThemeConfig = Config.ThemeConfig
+	--ThemeConfig.TextFont = TextFont
 
 	--// ReGui
-	ReGui:DefineTheme("SigmaSpy", ThemeConfig)
+	--ReGui:DefineTheme("SigmaSpy", ThemeConfig)
 end
 
 type CreateButtons = {
