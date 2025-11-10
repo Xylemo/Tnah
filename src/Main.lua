@@ -3,7 +3,7 @@ local Configuration = {
 	UseWorkspace = false, 
 	NoActors = false,
 	FolderName = "Sigma Spy",
-	RepoUrl = "https://raw.githubusercontent.com/depthso/Sigma-Spy/refs/heads/main",
+	RepoUrl = "https://raw.githubusercontent.com/Xylemo/Tnah/refs/heads/main",
 	ParserUrl = "https://raw.githubusercontent.com/depthso/Roblox-parser/refs/heads/main/dist/Main.luau"
 }
 
@@ -131,4 +131,5 @@ local EnablePatches = Ui:AskUser({
 --// Begin hooks
 Event:Fire("BeginHooks", {
 	PatchFunctions = EnablePatches
+
 })
